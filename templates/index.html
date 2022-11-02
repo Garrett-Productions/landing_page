@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{ url_for('static',filename='/style.css') }}">
+    <link rel="stylesheet" href="/static/style.css">
+    <script defer src="https://kit.fontawesome.com/c26cd2166c.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+    <title>Portfolio</title> 
+</head>
+<body> 
+    <nav class="navbar navbar-expand-lg text-uppercase">
+        <div class="container">
+        <a class="navbar-brand icon font-weight-bold" href="#"><span><i class="fas fa-solid fa-globe"></i></span></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" ></button>
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav m-auto"></div>
+            <a class="nav-link active px-lg-4 rounded" href="#">Home</a>
+            <a class="nav-link px-lg-4 rounded" href="#">About Me</a>
+            <a class="nav-link px-lg-4 rounded" href="#">Projects & Services</a>
+            <a class="nav-link px-lg-4 rounded" href="#">Contact Me </a>
+            </div>
+        </div>
+    </nav>
+
+    <!--Main Section Start-->
+
+    <section class="main py-5">
+        <div class="container py-5">
+            <div class="row py-5">
+                <div class="col-lg-6 py-5 mr-auto">
+                    <h3><small>Hey there, I'm</small><br>
+                        Garrett
+                    </h3>
+                    <h6 class="pt-3">Pro Web Designer</h6>
+                    <h3><small>Welcome to My World</small></h3>
+                    <input type="button" value="My Work" class="bt1 mt-5">
+                    <input type="button" value="Hire ME" class="bt2 mt-5">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about py-5">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-lg-5">
+                    <img src="/static/profile.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-7 py-5">
+                    <h1>About Me.</h1>
+                    <p>WEB DESIGNER AND FULL STACK DEVELOPER</p>
+                    <P class="py-3">I am<span class="font-weight-bold"> Garrett Turner</span> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit fuga odit aliquam impedit odio voluptates molestias, atque, at ratione, dicta in? Dolor tempora odio aliquid vero reprehenderit. Praesentium omnis aperiam optio ipsum voluptate distinctio quos fuga nam inventore, tenetur exercitationem, dolorum corrupti!</P>
+                    <div class="progress my-3">
+                        <div class="pro-value1">
+                            <p>HTML / CSS <span class="text-white float-right">95%</span></p>
+                        </div>
+                    </div>
+                    <div class="progress my-3">
+                        <div class="pro-value2">
+                            <p>JAVASCRIPT <span class="text-white float-right">33%</span></p>
+                        </div>
+                    </div>
+                    <div class="progress my-3">
+                        <div class="pro-value3">
+                            <p>BOOTSRAP <span class="text-white float-right">80%</span></p>
+                        </div>
+                    </div>
+                    <div class="progress my-3">
+                        <div class="pro-value4">
+                            <p>PYTHON <span class="text-white float-right">95%</span></p>
+                        </div>
+                    </div>
+                    <div class="progress my-3">
+                        <div class="pro-value5">
+                            <p>MySQL/Flask <span class="text-white float-right">95%</span></p>
+                        </div>
+                    </div>
+                    <input type="button" class="btn1 mt-5" value="Download C.V.">
+                    <input type="button" class="btn2 mt-5" value="Contact Me">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="services py-5 bg-light">
+        <div class="container">
+            <h1 class="text-center pb-5">Projects & Services</h1>
+            <div class="row pb-3">
+                <div class="col-lg-4 mb-3">
+                    <div class="card text-center py-3">
+                        <div class="card-body">
+                            <div class="circle">
+                                <span><i class="fas fa-desktop"></i></span>
+                            </div>
+                            <h4 class="font-weight-bold pb-2">Web Development</h4>
+                            <ol><h6>Full Stack Web Services.</ol></h4>
+                                <li>HTML5, CSS3, Javascript </li>
+                                <li>Python, MySQL, Flask/Django.</li>
+                                <li>React, Mongo DB, Express.js Node.js</li>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-3">
+                    <div class="card text-center py-3">
+                        <div class="card-body">
+                            <div class="circle">
+                                <span><i class="fas fa-desktop"></i></span>
+                            </div>
+                            <h4 class="font-weight-bold pb-2">Fully Responsive</h4>
+                            <p> AWS DEPLOYMENT. Lorem ipsum dolor sit amet consectetur adipisicing elit. A incidunt eveniet velit ut voluptates inventore magnam, maiores similique obcaecati facilis consectetur vero.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-3">
+                    <div class="card text-center py-3">
+                        <div class="card-body">
+                            <div class="circle">
+                                <span><i class="fas fa-desktop"></i></span>
+                            </div>
+                            <h4 class="font-weight-bold pb-2">Creative Projects</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A incidunt eveniet velit ut voluptates inventore magnam, maiores similique obcaecati facilis consectetur vero.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 mb-3">
+                    <div class="card text-center py-3">
+                        <div class="card-body">
+                            <div class="circle">
+                                <span><i class="fas fa-desktop"></i></span>
+                            </div>
+                            <h4 class="font-weight-bold pb-2">Branding</h4>
+                            <p> PORTFOLIO DESIGN. Lorem ipsum dolor sit amet consectetur adipisicing elit. A incidunt eveniet velit ut voluptates inventore magnam, maiores similique obcaecati facilis consectetur vero.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-3">
+                    <div class="card text-center py-3">
+                        <div class="card-body">
+                            <div class="circle">
+                                <span><i class="fas fa-desktop"></i></span>
+                            </div>
+                            <h4 class="font-weight-bold pb-2">Journey Through Github </h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A incidunt eveniet velit ut voluptates inventore magnam, maiores similique obcaecati facilis consectetur vero.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-3">
+                    <div class="card text-center py-3">
+                        <div class="card-body">
+                            <div class="circle">
+                                <span><i class="fas fa-desktop"></i></span>
+                            </div>
+                            <h4 class="font-weight-bold pb-2">Other</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A incidunt eveniet velit ut voluptates inventore magnam, maiores similique obcaecati facilis consectetur vero.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact py-5">
+        <div class="container py-5">
+            <h1 class="text-center">Contact Me</h1>
+            <div class="row py-5">
+                <div class="col-lg-10 mx-auto">
+                    <div class="row text-center">
+                        <div class="col-lg-4">
+                            <div class="circle">
+                                <span><i class="fab fa-github"></i></span>
+                            </div>
+                            <a href="https://github.com/Garrett-Productions" class="contact_links"><h5>GitHub</h5></a>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="circle">
+                                <span><i class="fas fa-sharp fa-solid fa-envelope"></i></span>
+                            </div>
+                            <a href="https://mail.google.com/mail/u/0/#inbox" class="contact_links"><h5>Email</h5></a>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="circle">
+                                <span><i class="fas fa-link"></i></span>
+                            </div>
+                            <a href="https://www.linkedin.com/in/garrettturner-developer/" class="contact_links" ><h5>Linked In</h5></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-9 mx-auto">
+                    <form action="">
+                        <div class="form-row">
+                            <div class="col-lg-6">
+                                <input type="text" class="form-control bg-light mb-3" placeholder="Name">
+                            </div>
+                            <div class="col-lg-6">
+                                <input type="text" class="form-control bg-light mb-3" placeholder="Email">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col-lg-12">
+                                <textarea name="" id="" class="form-control bg-light" placeholder="Message" cols="30" rows="10"></textarea>
+                            </div>
+                        </div>
+                        <button class="btn3 my-4 "> Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="py-5">
+        <p class="text-center">Copy right 2022 @ By Garrett Turner All Rights Reserved</p>
+    </footer>
+
+    <script>
+        $(document).ready(function(){
+            $(".button").click(function(){
+                var value =$(this).attr("data-filter");
+                if(value=="all"){
+                    $(".filter").show("100");
+                }
+                else{
+                    $(".filter").not("."+value).hide("1000");
+                    $(".filter").filter("."+value).show("1000");
+                }
+                $("ul .button").click(function(){
+                    $(this).addClass('active').siblings().removeClass('active');
+                })
+            })
+        })
+        </script>
+</body>
+</html>
+<!--
+<section class="portfolio py-5">
+    <div class="container text-center py-5">
+        <h1 class="text-center pb-5">Services</h1>
+        <div class="control">
+            <ul>
+                <li class="button active" data-filter="filter">All</li>
+                <li class="button active" data-filter="Brand">Brand</li>
+                <li class="button active" data-filter="Design">Design</li>
+                <li class="button active" data-filter="Graphic">Graphic</li>
+            </ul>
+        </div>
+        <div class="row pt-3">
+            <div class="col-lg-4">
+                <div class="item">
+                <img src="/static/code.jpeg" class="img-fluid filter Brand Design Graphic" alt="">
+                <span><i class="fas fa-plus" data-toggle="modal" data-target="#portfoliomodal"></i> </span>
+            </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="item">
+                <img src="/static/code.jpeg" class="img-fluid filter Brand Design Graphic" alt="" >
+                <span><i class="fas fa-plus" data-toggle="modal" data-target="#portfoliomodal"></i> </span>
+            </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="item">
+                <img src="/static/code.jpeg" class="img-fluid filter Brand Design Graphic" alt="">
+                <span><i class="fas fa-plus" data-toggle="modal" data-target="#portfoliomodal"></i></span>
+            </div>
+            </div>
+        </div>
+        <div class="row pt-4">
+            <div class="col-lg-4">
+                <div class="item">
+                <img src="/static/code.jpeg" class="img-fluid filter Brand Design Graphic" alt="">
+                <span><i class="fas fa-plus" data-toggle="modal" data-target="#portfoliomodal"></i></span>
+            </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="item">
+                <img src="/static/code.jpeg" class="img-fluid filter Brand Design Graphic" alt="">
+                <span><i class="fas fa-plus" data-toggle="modal" data-target="#portfoliomodal"></i></span>
+            </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="item">
+                <img src="/static/code.jpeg" class="img-fluid filter Brand Design Graphic" alt="">
+                <span><i class="fas fa-plus" data-toggle="modal" data-target="#portfoliomodal"></i></span>
+            </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="portfolio-modal modal fade mt-5" id="portfoliomodal" aria-hidden="true" role="dialog">
+    <div class="modal-dialog modal-md" role="document">
+        <div class="modal-content text-center">
+            <div class="modal-body text-center">
+                <div class="container-fluid py-3">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-12">
+                            <img src="/static/code.jpeg" class="img-fluid rounded" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+-->
